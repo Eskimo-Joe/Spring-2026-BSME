@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"433b556b95b58331","type":"text","text":"#### M/W\n[[MAE375 Kinematics]]\n#### Tu/Th\n[[MAE376 Modeling Systems]]\n#### W\n[[MAE337 Thermal Lab]]\n#### Th\n[[MAE508 SEI]]\n#### async\n[[AIS119 Chicano Studies]]\n","x":-640,"y":-420,"width":300,"height":560},
+		{"id":"11615beda781b969","type":"text","text":"```\ncd Documents/~updn~/Fall-2025-BSME-CSULB\ngit add.\ngit commit -m \"MMDD-XX\"\ngit push origin main\n```","x":-340,"y":-80,"width":440,"height":220},
+		{"id":"16e792ce159b08a6","type":"text","text":"# SharkSat\n- Flight Tags (on hold)\n- Reimbursements (on hold)\n- SharkSat SDA\n## Other\n[[Resume Workshop Notes-090925]]\n[[Micro-g-NEXT]]\n[[Vast info session]]\n[[NG_251113]]","x":-340,"y":-420,"width":440,"height":340},
+		{"id":"bc5c54041046ca1e","type":"text","text":"W11: [Homework](obsidian://open?vault=Home%20W11%20Vault&file=Fall-2025-BSME-CSULB%2FMISC%2FHomework.base)\nMac: [Homework](obsidian://open?vault=~updn~&file=Fall-2025-BSME-CSULB%2FMISC%2FHomework.base)","x":100,"y":-420,"width":220,"height":170}
+	],
+	"edges":[]
+}
