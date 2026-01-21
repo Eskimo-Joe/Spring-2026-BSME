@@ -1,0 +1,18 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Spring-2026-BSME/MISC/HW")
+        - submitted != "T"
+    order:
+      - file.name
+      - tags
+      - due
+      - submitted
+      - src
+    sort:
+      - property: due
+        direction: ASC
+    columnSize:
+      file.name: 109
