@@ -13,11 +13,11 @@ M/W 5-7:15p
 
 ### Classes
 
-| Date  | Agenda | Src | Notes |
-| ----- | ------ | --- | ----- |
-| 01/21 |        |     |       |
-| 01/26 |        |     |       |
-| 01/28 |        |     |       |
+| Date  | Agenda | Src                                                                                                           | Notes      |
+| ----- | ------ | ------------------------------------------------------------------------------------------------------------- | ---------- |
+| 01/21 |        | [Sign in to your account](https://csulb.instructure.com/courses/116961/files/28510032?module_item_id=6839301) | [[KDM-N1]] |
+| 01/26 |        |                                                                                                               |            |
+| 01/28 |        |                                                                                                               |            |
 
 ### Assignments
 ```dataview
