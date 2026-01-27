@@ -98,9 +98,44 @@ examples...
 
 ![[Pasted image 20260121185536.png]]
 
+## 01-26
+
 ![[Pasted image 20260121185603.png]]
 
----
+![[Pasted image 20260126171533.png]]
+
+![[Pasted image 20260126171539.png]]
+
+![[Pasted image 20260126171544.png]]
+
+![[Pasted image 20260126171549.png]]![[Pasted image 20260126171604.png]]
+
+![[Pasted image 20260126171619.png]]
+
+can be broken down into two four-bar mechanisms
+
+
+![[Pasted image 20260126171625.png]]
+
+![[Pasted image 20260126171641.png]]
+
+![[Pasted image 20260126172344.png]]
+no relative motion between three left links
+
+![[Pasted image 20260126172406.png]]
+R - revolute joint, only rotation is allowed
+P - (prismatic) one linear pivot
+
+![[Pasted image 20260126172653.png]]
+
+![[Pasted image 20260126173315.png]]
+
+![[Pasted image 20260126173323.png]]
+
+
+
+
+
 
 
 
