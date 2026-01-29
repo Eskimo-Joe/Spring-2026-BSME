@@ -3,7 +3,7 @@
 		{"id":"11615beda781b969","type":"text","text":"```\ncd Documents/~updn~/Spring-2026-BSME\ngit add.\ngit commit -m \"YYMMDD-XX\"\ngit push origin main\n```","x":-340,"y":-80,"width":440,"height":220},
 		{"id":"16e792ce159b08a6","type":"text","text":"# SharkSat\n- CAD\n- flyer\n## Other\n","x":-340,"y":-420,"width":440,"height":340},
 		{"id":"bc5c54041046ca1e","type":"text","text":"[Homework](Spring-2026-BSME/MISC/HW.base)","x":100,"y":-420,"width":160,"height":170},
-		{"id":"433b556b95b58331","type":"text","text":"M:\n[[MAE375 Kinematics]]\nTu:\n[[MAE376 Modeling Systems]]\n[[MCA]]\nW:\n[[MAE337 Thermal Lab]]\n[[MAE375 Kinematics]]\nTh:\n[[MAE376 Modeling Systems]]\n[[MAE508 SEI]]\nAsync:\n[[AIS119 Ethnic Studies]]\n","x":-640,"y":-420,"width":300,"height":560}
+		{"id":"433b556b95b58331","type":"text","text":"M:\n[[MAE375 Mechanisms]]\nTu:\n[[MAE376 Modeling Systems]]\n[[MCA]]\nW:\n[[MAE337 Thermal Lab]]\n[[MAE375 Mechanisms]]\nTh:\n[[MAE376 Modeling Systems]]\n[[MAE508 SEI]]\nAsync:\n[[AIS119 Ethnic Studies]]\n","x":-640,"y":-420,"width":300,"height":560}
 	],
 	"edges":[]
 }
