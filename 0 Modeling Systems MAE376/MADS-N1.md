@@ -3,6 +3,8 @@ tags:
   - MAE376
 ---
 
+
+## 01-22
 class can be considered Control systems 1, since control systems is a dense class. 
 
 start by modeling systems by writing transfer functions
@@ -54,10 +56,9 @@ before we model and analyze systems we first understand mathematical models
 - a
 
 **building mechanical blocks (translational)**
-the mathematical model of a machine mounted on the ground can be interpreted as a spring-mass dampener system
+for example: the mathematical model of a machine mounted on the ground can be interpreted as a spring-mass dampener system
 
-for rotational, it uses a different equation:
-$$J \frac{d^2\theta}{dt^2}\dots$$
+for rotational, it uses a different equation
 
 electrical system building blocks are capacitance, resistance, and inductance
 
