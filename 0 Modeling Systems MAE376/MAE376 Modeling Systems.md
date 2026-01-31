@@ -19,7 +19,11 @@ Tu/Th 2-3:15p
 | 01/20 | cancelled          |     |                   |
 | 01/22 | pre-knowledge test |     | [[MADS-N1]]       |
 | 01/27 |                    |     | [[MADS-N1#01-27]] |
-| 01/29 |                    |     |                   |
+| 01/29 |                    |     | [[MADS-N1#01-29]] |
+| 2/3   |                    |     |                   |
+| 2/5   |                    |     |                   |
+|       |                    |     |                   |
+|       |                    |     |                   |
 
 ### Assignments
 ```dataview

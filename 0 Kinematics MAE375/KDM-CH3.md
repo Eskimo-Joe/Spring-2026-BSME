@@ -75,7 +75,61 @@ add two linkages to rocker-rocker to drive it with a motor
 
 ![[Pasted image 20260126184001.png]]
 
----
+
+
+## 01-28
+
+remember motion gen is moving a line to predefined positions
+when motion generation for three positions, the line must be part of the coupler
+
+![[Pasted image 20260128170448.png]]
+
+put all C's on a circle and the center will be O2
+make a circle with all D positions and the center will be O4
+
+![[Pasted image 20260128170845.png]]
+
+![[Pasted image 20260128170955.png]]
+
+![[Pasted image 20260128171156.png]]
+
+![[Pasted image 20260128171229.png]]
+
+![[Pasted image 20260128171420.png]]
+
+^ this was very confusing but he said we'll learn this in lab 2
+
+coupler curve
+
+![[Pasted image 20260128171507.png]]
+
+![[Pasted image 20260128171639.png]]
+
+cusp - a sharp point in the curve with an instantaneous zero velocity
+crunode - curve crosses itself
+
+![[Pasted image 20260128171817.png]]
+
+![[Pasted image 20260128171930.png]]
+
+a link with a unique geometry to get a unique path 
+there are two fourbars linkages that can achieve the same path
+
+![[Pasted image 20260128172204.png]]
+
+![[Pasted image 20260128172218.png]]
+may ask to draw cayley diagram on exam
+
+![[Pasted image 20260128172421.png]]
+
+![[Pasted image 20260128172459.png]]
+
+gear ratio must be +1, meaning they must rotate the same direction
+often uses idler to match the direction
+
+
+
+
 
 
 

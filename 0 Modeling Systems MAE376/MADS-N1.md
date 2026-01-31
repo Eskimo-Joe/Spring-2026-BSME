@@ -130,6 +130,95 @@ when independent variable is time, dot is used instead of '
 usually solve homogenous version of nonhomo first
 
 
+## 01-29
 
+2nd order ODEs 
+solve homogenous first than adjust for nonhomogenous
+solution to nonhomogenous:
+$$y=u+v$$
+u - the solution to the complimentary homogenous ODE
+v - partial solution
+
+
+$$ay''+by'+c=0$$
+solve this equation by solving for r values quadratically and 
+$$ar^2+br+c=0$$
+$$y=e^{rx}$$
+three solutions for r:
+1. real roots
+	1. real numbers
+$$y=c_{1}e^{r_{1}x}+c_{2}e^{r_{2}x}$$
+2. complex roots
+	1. uses i
+$$r=\gamma+\mu i$$
+$$y=C_{1}e^{\gamma x}(\sin{\mu x} + \cos{\mu x})$$
+3. repeated roots
+	1. r1 = r2
+$$y=c_{1}e^{rx}+c_{2}xe^{rx}$$
+
+example
+$$y''-5y'+6y=0$$
+$$r^2-5r+6=0$$
+$$(r-3)(r-2)=0$$
+$$r_{1}=3;\quad r_{2}=2$$
+$$y=C_{1}e^{3x}+C_{2}e^{2x}$$
+
+ex2
+$$y''+6y'+9y=0$$
+$$r^2+6r+9=0$$
+$$(r+3)^2=0$$
+$$r_{1}=r_{2}=-3$$
+$$y=C_{1}e^{-3x}+C_{2}xe^{-3x}$$
+
+ex3
+$$y''-4y'+5y=0$$
+$$r^2-4r+5=0$$
+$$r=\frac{4\pm \sqrt{ 16-20 }}{2}$$
+$$r=2\pm i$$
+$$y=e^{2x}(C_{1}\cos{x}+C_{2}\sin{x})$$
+
+nonhomogeneous ODE
+
+$$y''-4y'+4y=4x+8x^3$$
+$$r^2-4r+4=0$$
+$$(r-2)(r-2)=0$$
+$$r_{1}=r_{2}=2$$
+$$y_{c}=C_{1}e^{2x}+C_{2}xe^{2x}$$
+
+$$g(x)=4x+8x^3$$
+$$y_{p}=p+qx+rx^2+sx^3$$
+$$y_{p}'=q+2rx+3sx^2$$
+$$y_{p}''=2r+6sx$$
+substitute into equation
+$$2r+6sx-4(q+2rx+3sx^2)+4(p+qx+rx^2+sx^3)=4x+8x^3$$
+$$4sx^3+(4r-12s)x^2+(4q-8r+6s)x+(4p-4q+2r)x^0=4x+8x^3$$
+$$4s=8\to s=2$$
+$$4r-12s=0\to r=\frac{24}{4}=6$$
+$$4q-8r+6s=4\to q=\frac{4+48-12}{4}=10$$$$4p-4q+2r=0\to p=\frac{40-12}{4}=7$$
+$$y=y_{c}+2x^3+6x^2+10x+7$$
+
+method of undetermined coefficients
+see photo
+for $g(x)=Ae^{rx}$
+
+
+
+
+ex
+$$3y''-6y'=18$$
+$$3r^2-6r=0$$
+$$r^2-2r=0$$
+$$r_{1}=0;\quad r_{2}=2$$
+$$y_{c}=C_{1}+C_{2}e^{2x}$$
+$$y_{p}=p+qx$$
+$$y'=q$$
+$$y''=0$$
+$$-6q=18$$
+$$q=-3$$
+$$y_{p}=-3x$$
+$$y=C_{1}+C_{2}e^{2x}-3x$$
+
+hw: 
+$$y''+y'-6y=52\cos{2x}$$
 
 
