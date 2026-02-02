@@ -15,10 +15,13 @@ UID: 34804
 ![[Pasted image 20260120153833.png]]
 
 ### Classes
-| Date  | Agenda  | Src | Notes      |
-| ----- | ------- | --- | ---------- |
-| 01/20 | teaming |     | [[MCA-L1]] |
-| 01/27 |         |     | [[MCA-L2]] |
-| 02    |         |     |            |
+| Date  | Agenda          | Src | Notes      |
+| ----- | --------------- | --- | ---------- |
+| 01/20 | teaming         |     | [[MCA-L1]] |
+| 01/27 | mission science |     | [[MCA-L2]] |
+| 1/31  | Team meeting    |     | [[MCA-L3]] |
+|       |                 |     |            |
+|       |                 |     |            |
+|       |                 |     |            |
 
 
