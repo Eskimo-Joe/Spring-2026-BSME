@@ -19,7 +19,7 @@ M/W 5-7:15p
 | 01/26 |        |                                                                                                               | [[KDM-CH2#01-26]] |
 |       |        | [Sign in to your account](https://csulb.instructure.com/courses/116961/files/28510019?module_item_id=6839302) | [[KDM-CH3]]       |
 | 01/28 |        |                                                                                                               | [[KDM-CH3#01-28]] |
-|       |        |                                                                                                               |                   |
+| 2/02  | Ch 4   | None                                                                                                          | [[KDM-CH4]]       |
 |       |        |                                                                                                               |                   |
 
 ### Assignments
