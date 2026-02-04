@@ -220,5 +220,98 @@ $$y=C_{1}+C_{2}e^{2x}-3x$$
 
 hw: 
 $$y''+y'-6y=52\cos{2x}$$
+$$r^2+r-6=0$$
+$$r=\frac{-1\pm \sqrt{ 1+24 }}{2}=\frac{-1\pm5}{2}$$
+$$r_{1}=2;\quad r_{2}=-3$$
+$$y_{c}=C_{1}e^{2x}+C_{2}e^{-3x}$$
+$$y_{p}=A\cos 2x+B\sin 2x$$
+$$y'=-2A\sin 2x + 2B\cos 2x$$
+$$y''=-4A\cos 2x-4B\sin 2x$$
+$$-4A\cos 2x-4B\sin 2x+-2A\sin 2x + 2B\cos 2x-6(A\cos 2x+B\sin 2x)=52\cos 2x$$
+$$-4A+2B-6A=52$$
+$$-4B-2A-6B=0$$
+$$-10A+2B=52$$
+$$-2A-10B=0\to A=-5B$$
+$$50B+2B=52\to B=1;\quad A=-5$$
+$$y=C_{1}e^{2x}+C_{2}e^{-3x}-5\cos 2x+\sin 2x$$
+
+## 2-03
+if particular solution repeats a term of the complimentary solution, add a factor of x
+
+
+Euler equations
+$$ax^2y''+bxy'+cy=0$$
+- assuming x>0 and all solutions are the form $y=x^r$
+- okug into the DE to get characteristic equation:
+$$ar(r-1)+b(r)+c$$
+
+ex
+$$2x^2y''+3xy'-15y=0$$
+$$2r^2-2r+3r-15=0$$
+$$2r^2+r-15=0$$
+$$r=\frac{-1\pm \sqrt{ 1+120 }}{4}=\frac{-1\pm 11}{4}$$
+$$r_{1}=\frac{5}{2};\quad r_{2}=-3$$
+$$y(x)=C_{1}x^{5/2}+C_{2}x^{-3}$$
+Euler equations can have complex roots, two roots, or repeated roots
+
+repeated roots:
+
+complex roots: 
+$$y=x^{\lambda}(C_{1}\cos \mu \ln x +C_{2}\sin \mu\ln x)$$
+
+ex
+$$x^2y''+3xy'+4y=0$$
+$$r^2-r+3r+4=0$$
+$$r^2+2r+4=0$$
+$$r=\frac{-2\pm \sqrt{ 4-16 }}{2}$$
+$$r=-1\pm i\sqrt{ 3 }$$
+$$\lambda=-1;\quad \mu=\sqrt{ 3 }$$
+$$y=C_{1}x^{-1}\cos \sqrt{ 3 }\ln x+C_{2}x^{-1}\sin \sqrt{ 3 }\ln x$$
+
+MATLAB functions: dsolve\['ODE', 'boundary condition']
+
+
+Complex Analysis
+- complex numbers in rectangular form
+	- $z=x+iy$
+- Addition
+	- add the real components together and imaginary components together
+- Multiplication
+	- $z_{1}\cdot z_{2}=x_{1}x_{2}-y_{1}y_{2}+j(y_{1}x_{2}+y_{2}x_{1})$
+- Conjugate
+	- flip the sign of the imaginary term
+	- $conj(z)=\bar{z}$
+
+example, write in regular form
+$$\frac{3+2j}{1-3j}=-0.3+1.1j$$
+$$\frac{\frac{1}{2}-j}{-1+\frac{1}{3}j}=\left( \frac{1}{2}-j \right)\cdot \left( -1- \frac{1}{3}j \right)=-\frac{1}{2}-\frac{1}{3}+j\left( -\frac{1}{6}+1 \right)$$
+$$=- \frac{5}{6}+\frac{5}{6}j$$
+^ wrong
+$$\frac{\frac{1}{2}-j}{-1+\frac{1}{3}j}\cdot \frac{-1-\frac{1}{3}j}{-1-\frac{1}{3}j}=\frac{-\frac{1}{2}-\frac{1}{3}+j-\frac{1}{6}j}{\frac{10}{9}}=\frac{-\frac{5}{6}+\frac{5}{6}j}{\frac{10}{9}}= -\frac{3}{4}+\frac{3}{4}j$$
+
+polar form of complex number
+$$z=x+jy=r(\cos \theta+j\sin \theta)=re^{j\theta}$$
+
+magnitude
+$$|z|=\sqrt{ x^2+y^2 }$$
+
+phase
+$$\theta=angle z=\tan^{-1} \frac{y}{x}$$
+
+$$z=-\sqrt{ 3 }-3j$$
+$$r=\sqrt{ (-\sqrt{ 3 })^2+9 }=\sqrt{ 12 }$$
+$$\theta=\pi + \tan^{-1}{-\frac{3}{-\sqrt{ 3 }}}=\pi+\tan^{-1}\sqrt{ 3 }=\pi+\frac{\pi}{3}=\frac{4\pi}{3}$$
+$$z=\sqrt{ 12 }e^{i4\pi /3}$$
+
+multiply scalar vectors
+$$z_{1}\cdot z_{2}=r_{1}r_{2}e^{j(\theta_{1}+\theta_{2})}$$
+division
+$$\frac{z_{1}}{z_{2}}=\frac{r_{1}}{r_{2}}e^{j(\theta_{1}-\theta_{2})}$$
+power
+$$z^n=r^ne^{jn\theta}$$
+roots
+$$^n\sqrt{ z }=^n\sqrt{ r }(\cos {\frac{\theta+2k\pi}{n}}+j\sin{\frac{\theta +2k\pi}{n}})$$
+
+
 
 
