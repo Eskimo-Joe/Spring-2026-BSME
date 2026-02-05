@@ -81,5 +81,22 @@ $$C_{t}=[n_{p}c_{p,\prod}\Delta T_{p}]-[n_{reaction}c_{p,reaction}\Delta T_{reac
 generally uses imperial units
 expected to convert between units
 
+## 2-04
+
+$$CH_{4}+3\left( O_{2}+\frac{79}{21}N_{2} \right)\to CO_{2}+2H_{2}O(l)+O_{2}+11.283N_{2}$$
+left:
+$$H_{R@T=exp}=H_{R@T=std}+nC_{p}\Delta T$$
+right: 
+$$H_{P@T=exp}=H_{P@T=std}+nC_{p}\Delta T$$
+$$Q=H_{p@T=\exp}-H_{R@T=\exp}$$
+^ replace H values with equations above
+$$Q=H_{p}-H_{R}+[nC_{p}\Delta T-nC_{p}\Delta T]$$
+$$Q=HHV+[nC_{p}\Delta T_{P}-nC_{p}\Delta T_{R}]$$
+$$HHV=Q-[nC_{p}\Delta T_{P}-nC_{p}\Delta T_{R}]$$
+$$Q=\frac{n \bar{c_{p}\Delta T+c_{e}}}{v_{s}}+c_{t}$$
+$$c_{t}=[(c_{p,CO_{2}}+c_{p,O_{2}}+11.285c_{p,N_{2}})(T_{ex}-T_{std})+(nc_{p,H_{2}O})(T_{cond}-T_{std})]-[(nc_{p,CH_{4}})(T_{fuel}-T_{std})+(nc_{p,O_{2}}+nc_{p,N_{2}})(T_{air}-T_{std})]$$
+
+one rotation is .1 cubic feet
+
 
 

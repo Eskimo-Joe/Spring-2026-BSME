@@ -78,4 +78,71 @@ using - gives crossed config where links 1 and 3 cross
 
 
 
+## 2-04
+
+new mechanisms
+crank-slider
+slider-crank
+
+**crank-slider**
+two traditional links, one sliding block, one ground
+origin at O2
+X-axis is parallel to the slider's ground surface
+crank (L2) connects to O2
+coupler (L3) connects crank to slider
+L4 is from slider joint to X-axis, so always parallel to Y 
+L2: a L3: b L4: c L1: d
+
+theta 2 is measured from X-axis to L2
+theta 3 is measured at joint B (usually joint A for crank-rocker)
+
+position analysis
+Given: a, b, c, theta2
+unknowns: theta3, d
+
+graphical solution
+1. draw L2 with a and theta2
+2. draw a circle at A with radius b
+3. find points on circle with height c from X-axis
+	1. two intersections: 
+	2. one intersection: 
+	3. no intersections: b is too short
+
+Analytical solution
+$$R_{2}-R_{3}-R_{4}-R_{1}=0$$
+$$R_{2}=ae^{j\theta_{2}}$$
+$$R_{3}=be^{j\theta_{3}}$$
+$$R_{4}=cj$$
+$$R_{1}=d$$
+$$[a\cos\theta_{2}+a\sin \theta_{2}j]-[b\cos \theta_{3}+bj\sin \theta_{3}]-cj-d=0$$
+$$a\cos \theta_{2}-b\cos \theta_{3}-d=0$$
+$$a\sin \theta_{2}-b\sin \theta_{3}-c=0$$
+
+can solve for theta3 in bottom equation
+then plug into top and solve for d
+
+$$\theta_{3}=\sin^{-1}{\frac{a\sin \theta_{2}-c}{b}}$$
+
+
+**slider-crank**
+differs with different unknowns because the slider is now the input
+ given: a, b, c, d
+ unknowns: theta2, theta3
+
+graphical solution
+1. Find joint B using d as x-coordinate and c as y-coordinate
+2. draw a circle at O2 with radius a
+3. draw a circle at B with radius b
+
+intersections are a solution for joint A
+
+analytical solution
+same as before but for two unknowns
+$$[a\cos\theta_{2}+a\sin \theta_{2}j]-[b\cos \theta_{3}+bj\sin \theta_{3}]-cj-d=0$$
+$$a\cos \theta_{2}-b\cos \theta_{3}-d=0$$
+$$a\sin \theta_{2}-b\sin \theta_{3}-c=0$$
+see page 195 (5th edition)
+
+
+
 
