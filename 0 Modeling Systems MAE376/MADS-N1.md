@@ -296,7 +296,7 @@ magnitude
 $$|z|=\sqrt{ x^2+y^2 }$$
 
 phase
-$$\theta=angle z=\tan^{-1} \frac{y}{x}$$
+$$\theta=\angle z=\tan^{-1} \frac{y}{x}$$
 
 $$z=-\sqrt{ 3 }-3j$$
 $$r=\sqrt{ (-\sqrt{ 3 })^2+9 }=\sqrt{ 12 }$$
