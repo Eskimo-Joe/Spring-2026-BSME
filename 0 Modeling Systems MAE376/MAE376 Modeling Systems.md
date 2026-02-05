@@ -14,16 +14,16 @@ Tu/Th 2-3:15p
 
 ### Classes
 
-| Date  | Agenda             | Src | Notes             |
-| ----- | ------------------ | --- | ----------------- |
-| 01/20 | cancelled          |     |                   |
-| 01/22 | pre-knowledge test |     | [[MADS-N1]]       |
-| 01/27 |                    |     | [[MADS-N1#01-27]] |
-| 01/29 |                    |     | [[MADS-N1#01-29]] |
-| 2/3   |                    |     | [[MADS-N1#2-03]]  |
-| 2/5   |                    |     |                   |
-|       |                    |     |                   |
-|       |                    |     |                   |
+| Date  | Agenda                 | Src | Notes             |
+| ----- | ---------------------- | --- | ----------------- |
+| 01/20 | cancelled              |     |                   |
+| 01/22 | pre-knowledge test     |     | [[MADS-N1]]       |
+| 01/27 |                        |     | [[MADS-N1#01-27]] |
+| 01/29 |                        |     | [[MADS-N1#01-29]] |
+| 2/3   | ODE and complex        |     | [[MADS-N1#2-03]]  |
+| 2/5   | Laplace transformation |     | [[MADS-N2]]       |
+|       |                        |     |                   |
+|       |                        |     |                   |
 
 ### Assignments
 ```dataview
