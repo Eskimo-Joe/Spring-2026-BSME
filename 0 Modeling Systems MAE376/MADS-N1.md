@@ -202,8 +202,6 @@ see photo
 for $g(x)=Ae^{rx}$
 
 
-
-
 ex
 $$3y''-6y'=18$$
 $$3r^2-6r=0$$
