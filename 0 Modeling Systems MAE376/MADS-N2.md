@@ -60,5 +60,87 @@ if the transfer function of a system is unknown, it may be established experimen
 exam next week: laplace, complex numbers, ODEs
 
 
+## 02-10
+
+review laplace
+MATLAB code: laplace()
+
+laplace of derivatives and integrals
+$$L\{\dot{x}(t)\}=s\cdot X(s)-x(0)$$
+$$L\left\{ \int x(t) \, dx  \right\}=\frac{1}{s}\cdot X(s)$$
+
+special functions
+step function:
+$$L\{u_{n}(t)\}=\frac{1}{s}$$
+unit ramp function:
+$$L\{u_{r}(t)\}=\frac{1}{s^2}$$
+unit impulse function
+missed
+
+recall 
+use laplace to change between time domain and s-domain
+
+$$\ddot{x}+3 \dot{x}+2x=1$$
+$$r^2+3r+2=0$$
+$$(r+1)(r+2)=0$$
+$$r_{1}=-1;\quad r_{2}=-2$$
+$$x_{c}=C_{1}e^{-t}+C_{2}e^{-2t}$$
+$$x_{p}=Ax+B$$
+$$x_{p}'=A;\quad x_{p}''=0$$
+$$3A+2Ax+2B=1$$
+$$A=0;\quad B=\frac{1}{2}$$
+$$x_{p}=\frac{1}{2}$$
+$$x(t)=C_{1}e^{-t}+C_{2}e^{-2t}+\frac{1}{2}$$
+$$x(0)=1;\quad \dot{x}(0)=0$$
+$$x(0)=C_{1}+C_{2}+\frac{1}{2}=1$$
+$$\dot{x}(t)=-C_{1}e^{-t}-2C_{2}e^{-2t}$$
+$$\dot{x}(0)=-C_{1}-2C_{2}=0\to C_{1}=-2C_{2}$$
+$$-2C_{2}+C_{2}=\frac{1}{2}\to C_{2}=-\frac{1}{2}$$
+$$C_{1}=1$$
+$$x(t)=e^{-t}-\frac{1}{2}e^{-2t}+\frac{1}{2}$$
+$$L\{x(t)\}=X(s)=\frac{1}{s+1}-\frac{1}{2s+4}+\frac{1}{2s}$$
+$$L\{\ddot{x}+3 \dot{x}+2x \}=L\{1\}$$
+$$s^2X(s)-sx(0)-\dot{x}(0)+3[sX(s)-x(0)]+2X(s)=\frac{1}{s}$$
+$$X(s)[s^2+3s+2]-3-s=\frac{1}{s}$$
+$$X(s)=\frac{\frac{1}{s}+s+3}{s^2+3s+2}$$
+solve with partial fraction decomposition
+case 1: simple roots
+case 2: repeated roots
+case 3: complex roots
+
+three roots:
+$$X(s)=\frac{s^2+3s+1}{s(s+1)(s+2)}=\frac{A}{s}+\frac{B}{s+1}+\frac{C}{s+2}$$
+$$A(s+1)(s+2)+Bs(s+2)+Cs(s+1)=s^2+3s+1$$
+$$As^2+3As+2A+Bs^2+2Bs+Cs^2+Cs$$
+$$A+B+C=1$$
+$$3A+2B+C=3$$
+$$2A=1$$
+$$A=\frac{1}{2}$$
+$$2B+C=\frac{3}{2}$$
+$$B+C=\frac{1}{2}$$
+
+MATLAB residue function for partial fraction decomp
+
+Final value theorem
+as $t\to \infty$ $x\to x_{ss}$
+
+$$x_{ss}=\lim_{ s \to \infty } X(s)$$
+$$X(s)=\frac{1}{s^2+4};\quad x_{ss}=0$$
+
+inverse laplace
+$$L^{-1}\left\{ \frac{1}{s+1} \right\}=e^{-t}$$
+
+unit step function
+
+$$L^{-1}\{\frac{2e^{-3s}}{2^2-4}\}=u_{3}(t)\sinh{2t}$$
+
+
+$$L\{3u(t-2) \}=\frac{3}{s}L\{u_{2}(t)\}=\frac{3e^{-2s}}{s}$$
+$$L^{-1}\left\{ \frac{e^{3s}}{s}  \right\}=u(t+3)$$
+
+
+solve for this as hw
+$$L^{-1}\{\frac{s^2+s+1}{s^3+s}\}$$
+
 
 
