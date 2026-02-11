@@ -20,7 +20,7 @@ UID: 34804
 | 01/20 | teaming         |     | [[MCA-L1]] |
 | 01/27 | mission science |     | [[MCA-L2]] |
 | 1/31  | Team meeting    |     | [[MCA-L3]] |
-|       |                 |     |            |
+| 2/10  | JMARS           |     | [[MCA-L4]] |
 |       |                 |     |            |
 |       |                 |     |            |
 

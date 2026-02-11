@@ -76,7 +76,7 @@ assume $\rho_{H_{2}O}=1 \frac{g}{cm^3}$
 
 
 $$HHV=Q-c_{t}$$
-$$C_{t}=[n_{p}c_{p,\prod}\Delta T_{p}]-[n_{reaction}c_{p,reaction}\Delta T_{reaction}]$$
+$$C_{t}=[n_{p}c_{p,prod}\Delta T_{p}]-[n_{reaction}c_{p,reaction}\Delta T_{reaction}]$$
 
 generally uses imperial units
 expected to convert between units
