@@ -146,3 +146,48 @@ see page 195 (5th edition)
 
 
 
+## 2-09
+
+ditched
+
+
+
+
+
+## 2-11
+
+See page 208
+Positional analysis of a fourbar with ternary links
+
+see photo @5:16pm
+
+
+Section 4.11
+$$\gamma=|\theta_{3}-\theta_{4}|$$if $\gamma> \frac{\pi}{2}$
+then $\mu=\pi-\gamma$
+else $\mu=\gamma$
+because $\mu\leq 90^{\circ}$
+
+for grashof crank-rocker theres two configs for max/min transmission angle
+overlap ($\mu_{1}$)= crank pointing towards O4
+extended ($\mu_{2}$)= crank pointing away from O4
+
+$$\mu_{1}=\arccos[\frac{b^2+c^2-(d-a)^2}{2bc}]$$
+$$\mu_{2}=\pi-\arccos[\frac{b^2+c^2-(d+a)^2}{2bc}]$$
+$$\mu_{min}=min{[\mu_{1},\mu_{2}]}$$
+
+for non-grashof, the mechanism is rocker-rocker with toggle positions, so $\mu_{min}=0$
+because toggle positions are when coupler and rocker are collinear
+
+also for stationary positions
+$$\mu=\arccos[\frac{(a+b)^2+c^2-d^2}{2c(a+b)}]$$
+
+for L2 angle to x-axis ($\theta_{2t}$) in toggle positions
+$$\cos{\theta_{2t}}=\frac{a^2+d^2-b^2-c^2}{2ad}\pm \frac{bc}{ad}$$
+the plus minus results in one value because the angle is mirrored across x-axis since theres two toggle positions
+ignore the value outside of $-1\leq \cos{\theta_{2t}}\leq 1$
+if no values are within that range, there is no toggle position
+
+
+
+

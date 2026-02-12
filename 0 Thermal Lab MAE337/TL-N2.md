@@ -93,10 +93,16 @@ $$Q=H_{p@T=\exp}-H_{R@T=\exp}$$
 $$Q=H_{p}-H_{R}+[nC_{p}\Delta T-nC_{p}\Delta T]$$
 $$Q=HHV+[nC_{p}\Delta T_{P}-nC_{p}\Delta T_{R}]$$
 $$HHV=Q-[nC_{p}\Delta T_{P}-nC_{p}\Delta T_{R}]$$
-$$Q=\frac{n \bar{c_{p}\Delta T+c_{e}}}{v_{s}}+c_{t}$$
+$$Q=\frac{n \bar{c_{p}}\Delta T+c_{e}}{v_{s}}+c_{t}$$
 $$c_{t}=[(c_{p,CO_{2}}+c_{p,O_{2}}+11.285c_{p,N_{2}})(T_{ex}-T_{std})+(nc_{p,H_{2}O})(T_{cond}-T_{std})]-[(nc_{p,CH_{4}})(T_{fuel}-T_{std})+(nc_{p,O_{2}}+nc_{p,N_{2}})(T_{air}-T_{std})]$$
 
 one rotation is .1 cubic feet
+
+
+
+$$294.73408 \frac{Btu}{lb-mole}\left( \frac{1lb-mole}{379.6ft^3} \right)=$$
+
+
 
 
 

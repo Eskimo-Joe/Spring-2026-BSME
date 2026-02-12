@@ -13,16 +13,20 @@ M/W 5-7:15p
 
 ### Classes
 
-| Date  | Agenda | Src                                                                                                           | Notes             |
-| ----- | ------ | ------------------------------------------------------------------------------------------------------------- | ----------------- |
-| 01/21 |        | [Sign in to your account](https://csulb.instructure.com/courses/116961/files/28510032?module_item_id=6839301) | [[KDM-CH2]]       |
-| 01/26 |        |                                                                                                               | [[KDM-CH2#01-26]] |
-|       |        | [Sign in to your account](https://csulb.instructure.com/courses/116961/files/28510019?module_item_id=6839302) | [[KDM-CH3]]       |
-| 01/28 |        |                                                                                                               | [[KDM-CH3#01-28]] |
-| 2/02  | Ch 4   | None                                                                                                          | [[KDM-CH4]]       |
-| 2/04  | Ch4    |                                                                                                               | [[KDM-CH4#2-04]]  |
-|       |        |                                                                                                               |                   |
-|       |        |                                                                                                               |                   |
+| Date  | Agenda     | Src                                                                                                           | Notes             |
+| ----- | ---------- | ------------------------------------------------------------------------------------------------------------- | ----------------- |
+| 01/21 |            | [Sign in to your account](https://csulb.instructure.com/courses/116961/files/28510032?module_item_id=6839301) | [[KDM-CH2]]       |
+| 01/26 |            |                                                                                                               | [[KDM-CH2#01-26]] |
+|       |            | [Sign in to your account](https://csulb.instructure.com/courses/116961/files/28510019?module_item_id=6839302) | [[KDM-CH3]]       |
+| 01/28 |            |                                                                                                               | [[KDM-CH3#01-28]] |
+| 2/02  | Ch 4       | None                                                                                                          | [[KDM-CH4]]       |
+| 2/04  | Ch4        |                                                                                                               | [[KDM-CH4#2-04]]  |
+| 2/09  | Ditched    |                                                                                                               |                   |
+| 2/11  | Finish CH4 |                                                                                                               | [[KDM-CH4#2-11]]  |
+|       | CH5        | [Sign in to your account](https://csulb.instructure.com/courses/116961/files/28510044?module_item_id=6839344) | [[KDM-CH5]]       |
+| 2/16  |            |                                                                                                               |                   |
+|       |            |                                                                                                               |                   |
+|       |            |                                                                                                               |                   |
 
 ### Assignments
 ```dataview
