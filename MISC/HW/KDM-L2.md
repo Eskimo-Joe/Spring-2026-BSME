@@ -2,7 +2,7 @@
 tags:
   - MAE375
 due: 2026-02-16
-submitted: F
+submitted: T
 src:
 ---
 
