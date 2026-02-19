@@ -85,6 +85,40 @@ $$\Delta T_{corrected}=T_{c,c}-T_{a,c}$$
 $$LHV=HHV-\frac{m_{cond}h_{fg@Ta}}{m_{fuel}}$$
 $$m_{condensate}=n_{H_{2}O}\times18 \frac{g}{mol}$$
 
+## 02-18
+
+
+three calorimeters will all be ran twice
+Parr calorimeters will ignite with a length of cotton thread
+
+fuel mass will always be 1g
+scales have accuracy of $\pm 5g$
+
+careful with crucible
+dont put down the bomb with crucible
+cotton thread has to be tied around heating element NiCr wire
+
+assemble bomb carefully to not spill
+
+we will add pressureized Oxygen
+edit: will use 25atm instead of 30atm
+
+IKA will fill itself with with water
+Parrs need precisely 2L of water
+
+record every minute until 5mins
+ignition at 5min
+after 6min, record every .25min or 15sec
+at 8mins, record every min until 18
+
+depressurize the bomb
+
+wash the crucible and do titration step (explanation later)
+
+Parr - cut NiCr wire to about 10cm, tie to both electrodes and dip center into fuel
+IKA - cotton thread
+
+
 
 
 

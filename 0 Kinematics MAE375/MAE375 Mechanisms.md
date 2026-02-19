@@ -24,7 +24,8 @@ M/W 5-7:15p
 | 2/09  | Ditched    |                                                                                                               |                   |
 | 2/11  | Finish CH4 |                                                                                                               | [[KDM-CH4#2-11]]  |
 |       | CH5        | [Sign in to your account](https://csulb.instructure.com/courses/116961/files/28510044?module_item_id=6839344) | [[KDM-CH5]]       |
-| 2/16  |            |                                                                                                               |                   |
+| 2/16  | ditched    |                                                                                                               |                   |
+| 2/18  | CH6        |                                                                                                               | [[KDM-CH6]]       |
 |       |            |                                                                                                               |                   |
 |       |            |                                                                                                               |                   |
 
