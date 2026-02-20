@@ -24,8 +24,8 @@ Tu/Th 2-3:15p
 | 2/5   | Laplace transformation |     | [[MADS-N2]]       |
 | 2/10  | Laplace again          |     | [[MADS-N2#02-10]] |
 | 2/12  | Quiz,                  |     | yap               |
-| 2/17  | transfer function      |     | [[MADS-N3]]       |
-| 2/19  |                        |     |                   |
+| 2/17  | transfer function CH4  |     | [[MADS-N3]]       |
+| 2/19  | Mechanical sys. CH5    |     | [[MADS-CH5]]      |
 |       |                        |     |                   |
 |       |                        |     |                   |
 
