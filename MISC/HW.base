@@ -16,3 +16,5 @@ views:
         direction: ASC
     columnSize:
       file.name: 223
+  - type: table
+    name: View
