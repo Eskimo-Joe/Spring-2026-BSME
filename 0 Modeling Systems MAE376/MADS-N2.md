@@ -25,7 +25,7 @@ cross multiples for simplicity
 review laplace
 $$L[f(t)]=F(s)=\int _{0}^\infty f(t)e^{-st} \, dt $$
 table of formulas
-![[lt.jpg|400]]
+![[lt.jpg|600]]
 
 $$L[1]=\int _{0}^\infty e^{-st}\, dt =\frac{1}{-s}e^{-st}|_{0}^\infty=[0]-\frac{1}{-s}=\frac{1}{s}$$
 $$L[e^{at}]=\int _{0}^\infty e^{at}e^{-st} \, dt=\int _{0}^\infty e^{(a-s)t} \, dt=\frac{e^{(a-s)t}}{a-s} |^\infty_{0}=\frac{1}{s-a} $$
