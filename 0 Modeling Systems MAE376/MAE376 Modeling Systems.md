@@ -14,22 +14,22 @@ Tu/Th 2-3:15p
 
 ### Classes
 
-| Date  | Agenda                 | Src | Notes              |
-| ----- | ---------------------- | --- | ------------------ |
-| 01/20 | cancelled              |     |                    |
-| 01/22 | pre-knowledge test     |     | [[MADS-N1]]        |
-| 01/27 |                        |     | [[MADS-N1#01-27]]  |
-| 01/29 |                        |     | [[MADS-N1#01-29]]  |
-| 2/3   | ODE and complex        |     | [[MADS-N1#2-03]]   |
-| 2/5   | Laplace transformation |     | [[MADS-N2]]        |
-| 2/10  | Laplace again          |     | [[MADS-N2#02-10]]  |
-| 2/12  | Quiz,                  |     | yap                |
-| 2/17  | transfer function CH4  |     | [[MADS-N3]]        |
-| 2/19  | Mechanical sys. CH5    |     | [[MADS-CH5]]       |
-| 2/24  |                        |     | [[MADS-CH5#02-24]] |
-| 2/26  |                        |     |                    |
-|       |                        |     |                    |
-|       |                        |     |                    |
+| Date  | Agenda                      | Src | Notes              |
+| ----- | --------------------------- | --- | ------------------ |
+| 01/20 | cancelled                   |     |                    |
+| 01/22 | pre-knowledge test          |     | [[MADS-N1]]        |
+| 01/27 |                             |     | [[MADS-N1#01-27]]  |
+| 01/29 |                             |     | [[MADS-N1#01-29]]  |
+| 2/3   | ODE and complex             |     | [[MADS-N1#2-03]]   |
+| 2/5   | Laplace transformation      |     | [[MADS-N2]]        |
+| 2/10  | Laplace again               |     | [[MADS-N2#02-10]]  |
+| 2/12  | Quiz,                       |     | yap                |
+| 2/17  | transfer function CH4       |     | [[MADS-N3]]        |
+| 2/19  | Mechanical sys. CH5         |     | [[MADS-CH5]]       |
+| 2/24  |                             |     | [[MADS-CH5#02-24]] |
+| 2/26  | continue mechanical systems |     | [[MADS-CH5#2-26]]  |
+|       |                             |     |                    |
+|       |                             |     |                    |
 
 
 

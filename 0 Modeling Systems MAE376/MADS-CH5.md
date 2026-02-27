@@ -46,7 +46,7 @@ $$m \ddot{x}+c \dot{x}+kx=F$$
 friction $$F=m \ddot{x}-c \dot{x}$$
 
 
-## 02-24
+## 2-24
 
 new ppt
 modeling suspension system of a car
@@ -106,6 +106,45 @@ $$F-kx_{1}-B \dot{x}$$
 $$F-k(x_{1}-x_{2})=m \ddot{x}$$
 $$F-Bx_{2}=m \ddot{x}$$
 example
+
+## 2-26
+
+rotational example
+1. coordinate system
+2. draw FBD
+3. write governing equations of motion
+	1. linear/translational - newtons 2nd law
+	2. rotational - eulers equation
+4. simplify the DE and solve or get laplace
+5. block diagrams or state-space variables
+
+see FBD and DEs
+
+$$I \ddot{\theta}+B \dot{\theta}+K\theta=Z$$
+...
+
+more complicated example
+the example has two DOFs, fixed ends are not DOFs
+
+...
+see photos
+solve laplace for each DOF
+solve via matrix form and find transfer function
+
+Cramers rule Ch3, pg88
+for Ax=b, if A has a nonzero determinant, the eq has a solution
+
+use cramers rule to find a transfer function for each DOF
+
+see photo, no photos allowed
+
+moment of inertia in table 5-1
+recommend memorizing some
+
+next example: inverted pendulum bob system
+
+a bob on a slender rod $I=\frac{1}{3}mL^2$
+friction in the mounting joint is included as a dampener
 
 
 
