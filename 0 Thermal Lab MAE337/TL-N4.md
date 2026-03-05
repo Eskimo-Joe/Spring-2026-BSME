@@ -151,5 +151,10 @@ compare ideal efficiency to real efficiency
 
 
 
+## 03-04
+
+run SI engine at 25, 50, and 100% throttle
+
+
 
 
