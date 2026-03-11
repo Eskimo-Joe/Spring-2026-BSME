@@ -2,6 +2,6 @@
 tags:
   - MAE337
 due: 2026-03-07
-submitted: F
+submitted: T
 src:
 ---
