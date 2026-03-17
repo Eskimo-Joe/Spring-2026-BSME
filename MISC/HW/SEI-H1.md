@@ -2,7 +2,7 @@
 tags:
   - MAE508
 due: 2026-03-12
-submitted: F
+submitted: T
 src:
 ---
 
