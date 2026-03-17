@@ -29,6 +29,8 @@ Tu/Th 2-3:15p
 | 2/24  |                             |     | [[MADS-CH5#02-24]] |
 | 2/26  | continue mechanical systems |     | [[MADS-CH5#2-26]]  |
 |       |                             |     |                    |
+| 3/17  | Starting fluid systems      |     | [[MADS-CH7]]       |
+|       |                             |     |                    |
 |       |                             |     |                    |
 
 
