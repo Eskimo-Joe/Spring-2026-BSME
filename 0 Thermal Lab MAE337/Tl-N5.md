@@ -107,8 +107,3 @@ will do multiple runs at different speeds
 ideally the highest efficiency will occur at the max throttle
 
 
-
-
-
-
-

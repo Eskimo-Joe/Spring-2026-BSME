@@ -30,6 +30,8 @@ M/W 5-7:15p
 | 2/25  |            | [Sign in to your account](https://csulb.instructure.com/courses/116961/files/28510048?module_item_id=6839357) | [[KDM-CH6]]       |
 | 3/04  |            |                                                                                                               | [[KDM-CH7]]       |
 |       |            |                                                                                                               |                   |
+| 3/18  |            |                                                                                                               | [[KDM-CH10]]      |
+|       |            |                                                                                                               |                   |
 
 ### Assignments
 ```dataview
