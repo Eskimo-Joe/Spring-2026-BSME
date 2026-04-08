@@ -32,6 +32,9 @@ Tu/Th 2-3:15p
 | 3/17  | Starting fluid systems      |     | [[MADS-CH7]]       |
 |       |                             |     |                    |
 |       |                             |     |                    |
+| 4/07  | System Response             |     | [[MADS-CH8]]       |
+|       |                             |     |                    |
+|       |                             |     |                    |
 
 
 
