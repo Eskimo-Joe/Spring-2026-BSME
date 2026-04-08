@@ -15,6 +15,6 @@ views:
       - property: due
         direction: ASC
     columnSize:
-      file.name: 223
+      file.name: 143
   - type: table
     name: View
