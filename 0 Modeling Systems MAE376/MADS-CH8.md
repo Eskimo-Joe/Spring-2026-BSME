@@ -99,8 +99,86 @@ $$e_{ss}=A\tau$$
 
 next: 8.3 transient response and second order
 
-
+For assignment 11
 8.1: 1, 2, 4, 5, 8, 9, 10, 11, 12
-8.2: 
+
+
+## 4-09
+
+Second order dynamic systems
+
+Mathematical model:
+$$\ddot{x}+2\zeta \omega_{n} \dot{x}+\omega^2_{n}x=f(t)$$
+$$x(0)=x_{0}\quad \dot{x}(0)= \dot{x}_{0}$$
+
+where $\omega_{n}$ is the undamped natural frequency in $\frac{rad}{s}$
+and $\zeta$ is the damping ratio (ratio of actual damping to critical damping)
+
+compare to the equation of motion for a SDOF mechanical system
+
+$$\ddot{x}+\frac{c}{m} \dot{x}+ \frac{k}{m}x=\frac{1}{m}f(t)$$
+$$\omega_{n}=\sqrt{ \frac{k}{m} } \frac{radians}{s}\quad \zeta=\frac{c}{2m\omega_{n}}=\frac{c\sqrt{ m }}{2m\sqrt{ k }}=\frac{c}{2\sqrt{ mk }}$$
+
+laplace of the equation
+$$s^2X-sx_{0}-\dot{x}_{0}+2\zeta \omega_{n}(sX-x_{0})+\omega^2_{n}X=F$$
+...
+$$x(t)=L^{-1}\left\{ \frac{(s+2\zeta \omega_{n})x_{0}+\dot{x}_{0}}{s^2+\zeta \omega_{n}s+\omega^2_{n}}  \right\}+L^{-1}\left\{ \frac{1}{s^2+2\zeta \omega_{n}s+\omega_{n}^2}F(s)  \right\}$$
+
+find root of $s^2+2\zeta \omega_{n}s+\omega_{n}^2$
+$$s=-\zeta \omega_{n}\pm \omega_{n}\sqrt{ \zeta^2-1 }$$
+the roots depend on the value of $\zeta$
+Can be two roots, one root, or complex roots
+$|\zeta|>1$ is two roots, meaning overdamped
+$|\zeta|=1$ is one root, meaning critically damped
+$-1<\zeta<1$ is complex roots, meaning underdamped system
+if $\zeta=0$, it is an undamped system
+
+damped natural frequency:
+$$\omega_{d}=\omega_{n}\sqrt{ 1-\zeta^2 }$$
+
+
+example
+$$\ddot{x}+3 \dot{x}+2x=0$$
+$$\omega_{n}=\sqrt{ 2 }$$
+$$2\zeta \omega_{n}=3\quad \zeta=\frac{3}{2\sqrt{ 2 }}$$
+
+state-space, 2 variables requires
+
+... convert the ODE to steady-state
+
+impulse response, dirac delta
+$$f(t)=A\delta(t)$$
+$$F(s)=A$$
+laplace on line 125
+$$x(t)=L^{-1}\left\{  \frac{(s+\zeta \omega_{n})x_{0}+\dot{x}_{0}+A}{s^2+\zeta \omega_{n}s+\omega^2_{n}} \right\}$$
+... if complex roots, use partial fractions like so
+$$\frac{A}{s+\zeta \omega_{n}+i\omega_{n}\sqrt{ 1-\zeta^2 }}+\frac{B}{s+\zeta \omega_{n}-i\omega_{n}\sqrt{ 1-\zeta^2 }}$$
+
+pg X in the book
+
+if $\zeta=0$, 
+$$x(t)=x_{0}\cos \omega_{n}t+ \frac{\dot{x}_{0}}{\omega_{n}}\sin \omega_{n}t+ \frac{A}{\omega_{n}}\sin \omega_{n}t$$
+if $0<\zeta<1$,
+$$x(t)=e^{-\zeta \omega_{n}t}[x_{0}\zeta \omega_{n}t+\frac{\zeta \omega_{n}x+\dot{x}_{0}+A}{\omega_{d}}\sin \omega_{n}t]$$
+
+example
+$$\ddot{x}+2 \dot{x}+ Kx=10\delta(t)\quad x(0)=0\quad \dot{x}(0)=0$$
+$$\omega_{n}=\sqrt{ K }\quad \zeta=\frac{1}{\sqrt{ K }}$$
+$$s^2X+2sX+KX=10$$
+$$X(s)=\frac{10}{s^2+2s+K}$$
+
+
+in a step respons... 
+$$f(t)=Au(t)\quad F(s)=\frac{A}{s}$$
+so
+$$X(s)=L^{-1}\{\frac{(s+2\zeta \omega_{n})x_{0}+\dot{x}_{0}}{}\}$$
+...
+
+for a 2DOF system, must use four variables and graph the SS only
+
+will use lagrange method instead of eulers method or newtons 2nd law
+lagrange uses energy instead of force
+
+
 
 
