@@ -21,8 +21,8 @@ Lab: EN4 125
 | 3/04 | Lab 3          | [Sign in to your account](https://csulb.instructure.com/courses/116797/files/28964160?module_item_id=6991747)   | [[TL-N4#03-04]] |
 | 3/11 | Lecture        | [Gas turbine Brayton cycle](https://csulb.instructure.com/courses/116797/files/28964186?module_item_id=6991749) | [[Tl-N5]]       |
 | 3/   | Lab 4          | Gas turbine Brayton cycle                                                                                       |                 |
-| 3/   | Lecture        |                                                                                                                 |                 |
-| 4/   | Lab 5          |                                                                                                                 |                 |
+| 3/25 | Lecture        |                                                                                                                 |                 |
+| 4/08 | Lab 5          | [Log in to Canvas](https://csulb.instructure.com/courses/116797/files/28964137?module_item_id=6991755)          | [[TL-N6]]       |
 | 4/   | Lecture        |                                                                                                                 |                 |
 | 4/   | Lab 6          |                                                                                                                 |                 |
 |      |                |                                                                                                                 |                 |
