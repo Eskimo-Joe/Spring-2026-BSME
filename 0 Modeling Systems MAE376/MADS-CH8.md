@@ -181,4 +181,73 @@ lagrange uses energy instead of force
 
 
 
+## 4-14
+
+going back to chapter 5 to learn the lagrange method of writing equations of motion
+page 223
+
+uses energy instead of sum of forces
+
+For a mass-spring system:
+$$T+V=\text{Constant}$$
+$$\frac{d}{dt}(T+V)=0$$
+
+kinetic energy of a particle
+$$T=\frac{1}{2}mv^2$$
+rigid body
+$$T=\frac{1}{2}mv^2+\frac{1}{2}I_{c}\omega^2$$
+potential energy of elasticity
+$$V_{e}=\frac{1}{2}kx^2$$
+potential energy of gravitational 
+$$V_{g}=mgh$$
+
+there is a lagrangian $L=T-V$
+Lagrange equation:
+$$\frac{d}{dt}\left( \frac{ \partial L }{ \partial \dot{q}_{i} }  \right)-\frac{ \partial L }{ \partial q_{i} }=q_{i} $$
+q: generalized external force, number of degrees of freedom
+
+$$\frac{d}{dt}\left( \frac{ \partial L }{ \partial \dot{q}_{i} }  \right)-\frac{ \partial L }{ \partial q_{i} }=q_{i} $$
+
+$$L=T-V$$
+$$L=\frac{1}{2}m\dot{x}^2-\frac{1}{2}kx^2$$
+use $\dot{x}$ instead of $v$
+
+$$q_{1}=x\quad \dot{q}_{1}=\dot{x}$$
+$$\frac{d}{dt}\left( \frac{ \partial L }{ \partial \dot{q} }  \right)-\frac{ \partial L }{ \partial q_{i} } =q_{i}$$
+$$\frac{dL}{dx}=-kx$$
+$$\frac{dL}{d\dot{x}}=m\dot{x}$$
+$$\frac{d}{dt}(m\dot{x})-kx=x$$
+$$m\ddot{x}-kx=0$$
+add a damper with
+$$\frac{1}{2} c\dot{x}^2$$
+
+
+2nd example with pendelum
+
+$$L=T-V$$
+$$L_{1}=\frac{1}{2}m(L_{1} \dot{\theta}_{1})^2+\frac{1}{2}I\dot{\theta_{1}}^2+mg(L_{1}\cos\theta_{1})$$
+$$\frac{dL}{dx}=$$
+... adding a second degree of freedom for a double pendelum
+
+$$T_{2}=\frac{1}{2}mL_{2}\dot{\theta}_{2}^2+\frac{1}{2}I \dot{\theta}_{2}^2$$
+$$V_{m_{2}}^2=[L_{1}\dot{\theta}_{1}+L_{2}\dot{\theta}_{2}\cos(\theta_{2}-\theta_{1})]^2+[L_{2}\dot{\theta}_{2}^2\sin(\theta_{2}-\theta_{1})]^2$$
+or use law of cosines
+$$c^2=a^2+b^2+2ab\cos \theta$$
+$$U_{2}=-mgh=-mg(L_{2}\cos \theta_{2}+L_{1}\cos \theta_{1})$$
+$$\frac{ \partial U }{ \partial \theta_{1} } =mgL_{1}\sin \theta_{1}+mgL_{1}\sin \theta_{1}$$
+$$\frac{ \partial U }{ \partial \theta_{2} }=mgL_{2}\sin \theta_{2} $$
+$$\frac{ \partial T }{ \partial \theta_{1} } =$$
+$$\frac{ \partial T }{ \partial \theta_{2} } =$$
+
+when considering the bar a rigid body, add the respective terms in T and U
+$$\frac{1}{2}I_{o}\dot{\theta}^2=\frac{1}{2}m\left( \frac{L}{2}\dot{\theta} \right)^2+\frac{1}{2}I_{c}\dot{\theta}^2$$
+
+
+example from the book with pulley and spring
+
+sample problem 5.18
+
+
+
+
 
