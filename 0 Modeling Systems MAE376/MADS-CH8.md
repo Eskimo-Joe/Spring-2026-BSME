@@ -248,6 +248,157 @@ example from the book with pulley and spring
 sample problem 5.18
 
 
+## 4-16
+
+bring hw problems for prof to solve on April 28
+
+continue chapter 8 
+
+intro to chapter 9, vibrations
+- intro to vibrations
+	- free vibe of SDOF (homogeneous ODE)
+		- undamped
+		- viscously damped
+	- forced vibe of SDOF (nonhomogeneous ODE)
+		- harmonic excitations (uses sine input)
+		- frequency response
+
+neglect gravity because it cancels with the spring force already
+where the mass rests is the equilibrium position
+$$k\delta=mg$$
+no mg in the equation, because we the initial condition is not always the equilibrium position
+$$m \ddot{x}+k x=0$$
+a mass-spring system will oscillate forever, to make it more accurate we will add a damper 
+
+remember
+$$\ddot{x}+ 2\zeta \omega_{n} \dot{x}+\omega^2_{n}x=f(t)$$
+$$x(0)=x_{0}\quad \dot{x}(0)=\dot{x}_{0}$$
+$\omega_{n}$ - natural frequency
+$\zeta$ - damping ratio
+
+$$\omega_{n}=\sqrt{ \frac{k}{m} } \frac{radians}{s}\quad \zeta=\frac{c}{2m\omega_{n}}=\frac{c\sqrt{ m }}{2m\sqrt{ k }}=\frac{c}{2\sqrt{ mk }}$$
+
+$$x(t)=L^{-1}\left\{ \frac{(s+2\zeta \omega_{n})x_{0}+\dot{x}_{0}}{s^2+\zeta \omega_{n}s+\omega^2_{n}}  \right\}+L^{-1}\left\{ \frac{1}{s^2+2\zeta \omega_{n}s+\omega_{n}^2}F(s)  \right\}$$
+left term: zero-input response (response to initial conditions)
+right term: zero-state response (response to forcing function)
+
+find root of $s^2+2\zeta \omega_{n}s+\omega_{n}^2$
+$$s=-\zeta \omega_{n}\pm \omega_{n}\sqrt{ \zeta^2-1 }$$
+the roots depend on the value of $\zeta$
+Can be two roots, one root, or complex roots
+$|\zeta|>1$ is two roots, meaning overdamped
+$|\zeta|=1$ is one root, meaning critically damped
+$-1<\zeta<1$ is complex roots, meaning underdamped system
+if $\zeta=0$, it is an undamped system
+
+review ends
+underdamped SDOF equation
+$$T=\frac{2\pi}{\omega_{d}}$$
+$$x(t)=e^{-\zeta \omega_{n}t}(x_{0}\cos \omega_{d} t +\frac{\zeta \omega_{n}x_{0}+v_{0}}{\omega_{d}}\sin \omega_{d}t)$$
+
+usually dampers are not used in spring-mass system, but damping occurs naturally
+
+experimentation is required to find damping
+
+using the folowing identities the equation above can be simplified
+$$\cos\alpha\cos\beta+\sin\alpha\sin \beta=\cos()$$
+$$\sin\alpha\cos \beta+\cos \alpha\sin \beta=\sin()$$
+divide those two equations to get cotangent
+
+$$x(t)=Ae^{-\zeta \omega_{n}t}\cos(\omega_{d}t-\phi)$$
+$$\phi=\tan^{-1}{\frac{\zeta \omega_{n}x_{0}+v_{0}}{\omega_{d}x_{0}}}$$
+find $\omega_{d}$ using period
+must solve for $\omega_{n}$, $\zeta$, and $A$
+
+take measurement of amplitudes to solve
+$$\frac{x_{1}}{x_{2}}=e^{2\pi \zeta/\sqrt{ 1-\zeta^2 }}$$
+$$\delta=\ln{\frac{x_{1}}{x_{2}}}=\frac{1}{n} \ln{\frac{x_{n}}{x_{n+1}}}=\frac{2\pi \zeta}{\sqrt{ 1-\zeta^2 }}$$
+
+using the first to measurements is difficult because the first amplitude will have noise, so it is better to use later amplitudes
+$$\frac{x_{1}}{x_{2}}=\frac{x_{2}}{x_{3}}=\dots$$
+
+for very small damping ratios, the damping ratio can be simplified:
+$$\zeta <<1\quad \zeta \approx \frac{\delta}{2\pi}$$
+
+assumptions
+- lumped mass
+- stiffness proportional to displacement
+- damping proportional to velocity
+- linear time invariant
+	- behavior of system does not change over time
+- 2nd order differential equation
+
+undamped natural frequency: $\omega_{n}=\sqrt{ \frac{k}{m} }$
+...
+
+EoM: 
+$$m \ddot{x}+kx=0$$
+response:
+$$x(t)=C\cos(\omega_{n}t-\phi)$$
+$$C=\sqrt{ x_{0}^2+\left( \frac{v_{0}}{\omega_{n}} \right)^2 }$$
+$$\phi=\tan^{-1}{\frac{\zeta \omega_{n}x_{0}+v_{0}}{\omega_{d}x_{0}}}$$
+
+C and $\phi$ are only dependent on initial conditions
+$\omega_{n}$ is only dependent on the characteristics of the system
+
+for a critically damped system
+$$x(t)=e^{-\omega_{n}t}(x_{0}+t())$$
+...
+
+forced harmonic vibrations
+EoM
+$$m \ddot{x}+b \dot{x}+kx=F(t)$$
+$$F(t)=A\sin\omega t+B\cos \omega t$$
+and
+$$\ddot{x}+2\zeta \omega_{n} \dot{x}+\omega^2_{n}x=F(t)$$
+$$x(t)=\begin{bmatrix}
+A & G(j\omega) & \sin \omega t+\phi
+\end{bmatrix}$$
+...
+...
+
+going back to chapter 8.3
+
+the steady-state response to a sinusoidal input is known as the frequency response
+
+$$G(s)=G(j\omega)$$
+the right G function is called frequency response function (FRF)
+$$G(j\omega)=|G(j\omega)|e^{j\phi}$$
+$$|G(j\omega)|=\sqrt{ Re[G(j\omega)]^2+Im[G(j\omega)]^2 }$$
+$$\phi=\angle G(j\omega)=\tan^{-1}{\frac{Im[G(j\omega)]}{Re[G(j\omega)]}}$$
+
+given the transfer function
+$$G(s)=\frac{X(s)}{F(s)}$$
+X is output, F is input
+$$f(t)=F_{0}\sin \omega t$$
+using laplace of input function and transfer function, the output can be solved
+
+$$x_{ss}(t)=F_{0}|G(j\omega)|\sin (\omega t+\phi)$$
+
+note:
+1. the response has the same frequency $\omega$ as the input
+2. the amplitude of the response is scaled by $|G(j\omega)|$
+3. The phase of the response is shifted by $\angle G(j\omega)$
+
+if the input is cosine the frequency is cosine
+
+
+frequency response of first-order again
+
+
+$$\tau \dot{x}+x=f(t)$$
+$$G(s)=\frac{1}{\tau s+1}=\frac{1}{j\tau \omega+1}$$
+$$\frac{1}{1+j\tau \omega}(\frac{1-j\tau \omega}{1-j\tau \omega})=a+bj$$
+now the magnitude and $\phi$ can be used with this form of $G(s)$
+
+and plugged into 
+$$x(t)=F_{0} | G(j\omega)|\sin \omega t + \phi$$
+
+$$\dot{x}+2x=3\sin 2t$$
+$$\frac{1}{2} \dot{x}+x=\frac{3}{2}\sin 2t$$
+$$\tau= \frac{1}{2}\quad F_{0}=\frac{3}{2}\quad \omega=2$$
+
+$$G(s)=\frac{1}{j+1} \frac{1-j}{1-j}=\frac{1-j}{1+j-j-j^2}=\frac{1}{2}-\frac{1}{2}j$$
 
 
 
