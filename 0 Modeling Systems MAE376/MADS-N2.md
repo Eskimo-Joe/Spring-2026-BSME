@@ -2,7 +2,7 @@
 tags:
   - MAE376
 ---
-
+ 
 example of a dynamic system
 car suspension
 uses a fourth order ODE to relate the input (bumps on road) to the output (vertical displacement of cabin)
