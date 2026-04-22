@@ -401,4 +401,55 @@ $$\tau= \frac{1}{2}\quad F_{0}=\frac{3}{2}\quad \omega=2$$
 $$G(s)=\frac{1}{j+1} \frac{1-j}{1-j}=\frac{1-j}{1+j-j-j^2}=\frac{1}{2}-\frac{1}{2}j$$
 
 
+## 4-21
+
+Q1 of midterm 2 will have similar question on the final
+a mechanical system where you write a state-space equation of motion 
+See prob question 5 on pg257
+
+problem 5.2 #8
+
+run thru chapter 8
+can find the frequency response by taking laplace and set $s=j\omega$
+
+finding $G(j\omega)$ as a vector, either rectangular or polar
+
+first and second order systems..
+
+First Order
+Transfer function
+FRF: $G(j\omega)=\frac{1}{1+\tau \omega j}$
+Mag and phase of FRF
+Frequency response 
+$$\frac{1}{1+\tau \omega j}\left( \frac{1-\tau \omega j}{1-\tau \omega j} \right)=\frac{1-\tau \omega j}{1+\tau^2\omega^2}$$
+$$\frac{1}{1+\tau^2\omega^2}- \frac{\tau \omega}{1+\tau^2 \omega^2}j$$
+$$|G|=\sqrt{ \left( \frac{1}{1+\tau^2 \omega^2} \right)^2+\left( -\frac{\tau \omega}{1+\tau^2 \omega^2} \right)^2 }=\sqrt{\frac{\tau^2 \omega^2+1}{1+2\tau^2\omega^2+\tau^4\omega^4} }$$
+$$\angle G=-\tan^{-1}{\tau \omega}$$
+
+$$\dot{x}+2x=3\sin 2t$$
+$$\frac{1}{2}\dot{x}+x=\frac{3}{2}\sin 2t$$
+$$x(t)=F_{0} | G(j\omega)|\sin \omega t + \phi$$
+$$G(s)=\frac{1}{\frac{1}{2} s+1}=\frac{1}{j \frac{1}{2}2+1}$$
+$$\left( \frac{1}{1+j} \right)\left( \frac{1-j}{1-j} \right)=\frac{1-j}{2}$$
+$$\frac{1}{2}-\frac{1}{2}j\quad |G|=\frac{1}{\sqrt{ 2 }}\quad \angle G=-\frac{\pi}{4}$$
+$$x(t)=\frac{3}{2\sqrt{ 2 }}\sin\left( 2t-\frac{\pi}{4} \right)$$
+
+2nd order systems
+FRF: 
+$$G(j\omega)=\frac{1}{\omega_{n}^2-\omega^2+2\zeta \omega_{n}\omega j}$$
+find the magnitude and phase of the FRF to solve the same equation
+$$x_{ss}(t)=F_{0}|G(j\omega)|\sin (\omega t+\phi)$$
+
+ex
+$$\ddot{x}+2\dot{x}+4x=0.8\sin t$$
+$$\omega_{n}^2=4\quad \zeta=\frac{1}{4}$$
+$$F_{0}=0.8\quad \omega=1$$
+$$s^2X(s)+2sX(s)+4X(s)=F(s)$$
+$$\frac{X(s)}{F(s)}=\frac{1}{s^2+2s+4}$$
+$$G(j\omega)=\frac{1}{3+2j}$$
+$$|G|=\sqrt{ \left( \frac{3}{13} \right)^2+\left( \frac{2}{13} \right)^2 }$$
+$$\angle G=-\tan^{-1} \frac{2}{3}$$
+$$x_{ss}(t)=$$
+next: ch 8.5
+
 
