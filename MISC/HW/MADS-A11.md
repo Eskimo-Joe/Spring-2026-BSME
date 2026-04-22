@@ -2,7 +2,7 @@
 tags:
   - MAE376
 due: 2026-04-19
-submitted: F
+submitted: T
 src:
 ---
 Assignment 11
@@ -17,6 +17,7 @@ Assume $A=1$
 
 
 `<div style="page-break-after: always;"></div>
+
 #6 
 $$RA\dot{h}+gh=Rq_{i}(t)\quad h(0)=0$$
 $$q_{i}(t)=Bu(t)$$
@@ -34,6 +35,7 @@ $$\omega_{ss}=\frac{1}{2}t-\frac{1}{20}$$
 $$e_{ss}=\frac{1}{2}t-\left( \frac{1}{2}t-\frac{1}{20} \right)=\frac{1}{20}$$
 
 `<div style="page-break-after: always;"></div>
+
 ## 8.2
 #2
 $$3 \ddot{x}+2 \dot{x}+x=0\quad x(0)=0\quad \dot{x}(0)=\frac{1}{3}$$
@@ -64,6 +66,7 @@ x_{2}
 ![[Pasted image 20260418222610.png|500]]
 
 `<div style="page-break-after: always;"></div>
+
 #4 
 $$4 \ddot{x} + 8 \dot{x}+ 3x=0\quad x(0)=1\quad \dot{x}(0)=-1$$
 
@@ -94,6 +97,7 @@ x_{2}
 ![[Pasted image 20260418225855.png|500]]
 
 `<div style="page-break-after: always;"></div>
+
 #7 
 
 $$\ddot{x}+2 \dot{x}+ 2x=10\delta(t)\quad x(0)=0\quad \dot{x}(0)=0$$
@@ -104,7 +108,7 @@ $$X(s)=\frac{10}{s^2+2s+2}=\frac{10}{(s+1)(s+1)}$$
 $$x(t)=10e^{-t}\sin t$$
 $$x_{ss}=\lim_{ t \to \infty } (10e^{-t}\sin t)=0$$
 
----
+`<div style="page-break-after: always;"></div>
 
 #8 
 $$\ddot{x}+\dot{x}+0.89x=\delta(t-1)$$
@@ -176,6 +180,7 @@ x_{4}
 ![[Pasted image 20260420102006.png|500]]
 
 `<div style="page-break-after: always;"></div>
+
 #24
 $$m\ddot{x}_{1}=f_{1}-k_{1}x_{1}-b_{1}\dot{x}_{1}+k_{2}(x_{2}-x_{1})+b_{2}(\dot{x}_{2}-\dot{x}_{1})$$
 $$\ddot{x}_{1}=f_{1}-20x_{1}+10x_{2}-13\dot{x}_{1}+8\dot{x}_{2}$$
@@ -192,18 +197,23 @@ $$\dot{x}_{2}=\dot{x}_{1}+\frac{5}{4}x_{1}-\frac{5}{4}x_{2}+\frac{1}{8}f_{2}$$
 $$ 8\ddot{x}+4\dot{x}+5x=\frac{3}{5}e^{-t/3}\sin t\quad x(0)=\frac{2}{3}\quad \dot{x}(0)=0$$
 $$0\leq t\leq 15$$
 $$\ddot{x}+\frac{1}{2}\dot{x}+\frac{5}{8}x=\frac{3}{40}e^{-t/3}\sin t$$
-$$\omega_{n}=\frac{\sqrt{ 5 }}{2\sqrt{ 2 }}\quad \zeta=\frac{\sqrt{ 2 }}{2\sqrt{ 5 }}\approx 0.316$$
-$$8r^2+4r+5=0$$
-$$r=\frac{-4\pm\sqrt{ 16-160 }}{16}=-\frac{1}{4}\pm \frac{\sqrt{ -144 }}{16}$$
-$$r=-\frac{1}{4}\pm \frac{3}{4}i$$
-
-$$s^2X(s)-\frac{2}{3}s+\frac{1}{2}\left( sX(s)-\frac{2}{3} \right)+\frac{5}{8}X(s)=\frac{3}{5}\left( \frac{1}{\left( s+\frac{1}{3} \right)^2+1} \right)$$
-$$\left( s^2+\frac{1}{2}s+\frac{5}{8} \right)X(s)-\frac{2}{3}s-\frac{1}{3}=\frac{3}{5}\left( \frac{1}{s^2+\frac{2}{3}s+\frac{10}{9}} \right)$$
-
-
-
+$$\omega_{n}=\frac{\sqrt{ 5 }}{2\sqrt{ 2 }}\quad \zeta=\frac{\sqrt{ 2 }}{2\sqrt{ 5 }}\approx 0.316\quad \omega=1$$
+$$s^2X(s)-\frac{2}{3}s+\frac{1}{2}sX(s)-\frac{1}{3}+\frac{5}{8}X(s)=\frac{3}{40} \frac{1}{\left( s+\frac{1}{3} \right)^2+1}$$
+$$\left( s^2+\frac{1}{2}s+\frac{5}{8} \right)X(s)-\frac{2}{3}s-\frac{1}{3}=\frac{3}{40} \frac{1}{s^2+\frac{2}{3}s+\frac{10}{9}}$$
+$$X(s)=\frac{1}{s^2+\frac{1}{2}s+\frac{5}{8}}\left( \frac{3}{40} \frac{1}{s^2+\frac{2}{3}s+\frac{10}{9}}+\frac{2s}{3}+\frac{1}{3} \right)$$
+...
 
 #29
+$$\ddot{x}_{1}+\frac{5}{3}x_{1}-\frac{2}{3}x_{2}-3(\dot{x}_{2}-\dot{x}_{1})=u(t)\quad x_{1}(0)=0\quad \dot{x}_{1}(0)=1$$
+$$\ddot{x}_{2}+\frac{2}{3}(x_{2}-x_{1})+3(\dot{x}_{2}-\dot{x}_{1})=\sin t\quad x_{2}(0)=1\quad \dot{x}_{2}(0)=0$$
+$$0\leq t\leq 20$$
+$$s^2X_{1}-1+\frac{5}{3}X_{1}-\frac{2}{3}X_{2}+3(sX_{1}-sX_{2})=\frac{e^{-s}}{s}$$
+..
+
+
 #30
+$$2\ddot{x}_{1}+2x_{1}+3\dot{x}_{1}-\frac{3}{2}(x_{2}-x_{1})-4(\dot{x}_{2}-\dot{x}_{1})=e^{-t/4}\sin t\quad x_{1}(0)=1\quad \dot{x}_{1}(0)=0$$
+$$\frac{3}{2}(x_{2}-x_{1})+4(\dot{x}_{2}-\dot{x}_{1})=e^{-t/3}\quad x_{2}(0)=1$$
+$$0\leq t\leq 15$$
 
 
