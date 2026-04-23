@@ -37,7 +37,33 @@ the lecture notes are the same as for the heat pump. The beginning part is mainl
 for every state
 $$T_{db},\phi,h,v,T_{wb},\omega$$
 
+# 4-22
 
+air conditioning experiment
+
+review:
+measuring temp and humidity of the air at four points
+three trials with a pre-heater at 10%, 50%, and 90% duty cycle
+data will be collected automatically for 30s at 1s intervals
+average over time will be used
+
+condensation occurring between point 3 and 4 
+anemometer which records velocity at point 4
+are of vent is $0.26ft^2$
+
+sections for this lab:
+- intro
+- sample calcs
+- discussion
+	- psychrometric chart with the 4 states plotted on it
+
+should see dehumidification at 10% duty cycle
+but not at 50% or 90%
+P_atm = 29.98inHg
+
+cheat sheet for final
+both sides of 8.5 x 11
+equations and figures only
 
 
 
