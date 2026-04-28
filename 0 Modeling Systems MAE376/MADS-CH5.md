@@ -148,3 +148,13 @@ friction in the mounting joint is included as a dampener
 
 
 
+## 4-28
+
+solution to problem 5.4 # 5
+...
+
+review dynamics ch 16, 17
+
+
+
+

@@ -1,7 +1,7 @@
 ---
 tags:
   - MAE376
-due: 2026-04-27
-submitted: T
+due: 2026-05-01
+submitted: F
 src:
 ---
